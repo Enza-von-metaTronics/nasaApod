@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(2, 4, 31);
+    color: rgba(233, 201, 153, 0.671);
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+h2 , p{
+    font-weight: 100;
+}
+#imageBox{
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+}
+#beschreibungBox{
+    display: grid;
+    justify-content: center;
+}
+#beschreibung{
+    width: 50vw;
+    hyphens: auto; 
+	text-align: justify;
+    font-size: medium;
+    font-weight: 300;
+}
+#signBox{
+    display: flex;
+    align-items: center;
+}
+#crSign{
+    margin-right: .5rem;
+    font-size: 1rem;
+}
+#creditBox{
+    display: grid;
+    justify-content: end;
+    margin-top: 1rem;
+}
+#datum{
+    text-align: right;
+}
+.credits{
+    font-size: .8rem;
+    font-weight: 400;
+}
+footer{
+    height: 5rem;
+}

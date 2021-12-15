@@ -1,2 +1,12 @@
 # nasaApod
 Daily picture with info from NASA.
+
+## Beschreibung
+Eine Webseite, die dem Nutzer folgende Weltraumdaten anzeigt.
+1. Astronomy Picture of the Day
+2. Beschreibung des Bildes
+3. Copyright
+4. Datum
+
+## API Hinweise
+Daten von der NASA.

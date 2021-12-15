@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA &#8226 APOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+<header>
+    <img src="img/politronlogo100.png" alt="logo">
+</header>
+
+<main>
+    <h1>NASA-picture of the day</h1>
+
+<section id="imageBox">
+    <h2 id="title"></h2>
+    <img id="image" width="500">
+</section>
+
+<section id="beschreibungBox">
+    <p id="beschreibung"></p>
+
+    <div id="creditBox">
+        <div id="signBox">
+            <p id="crSign">&#169;</p>
+            <p id="copyright" class="credits"></p>
+        </div>
+            <p id="datum" class="credits"></p>
+    </div>   
+</section>
+</main>
+
+<footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
